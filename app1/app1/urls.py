@@ -20,5 +20,5 @@ from firstApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("hola1", views.display)
+    path("hola/", views.display)
 ]
